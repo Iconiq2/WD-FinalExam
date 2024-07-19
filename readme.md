@@ -123,6 +123,6 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 
-| Title        | Purpose                                      | Link                          |
-| ------------ | -------------------------------------------- | ----------------------------- |
-| freecodecamp | help me in understanding and doing the code. | https://www.freecodecamp.org/ |
+| Title        | Purpose                                      | Link                           |
+| ------------ | -------------------------------------------- | ------------------------------ |
+| freecodecamp | help me in understanding and doing the code. | https://www.freecodecamp.org// |
