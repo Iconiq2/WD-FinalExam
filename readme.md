@@ -4,23 +4,24 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/Iconiq2">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="https://yt3.googleusercontent.com/-CFTJHU7fEWb7BYEb6Jh9gm1EpetvVGQqtof0Rbh-VQRIznYYKJxCaqv_9HeBcmJmIsp2vOO9JU=s900-c-k-c0x00ffffff-no-rj" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/Sunga_Charles-Lab 3.2.jpg" alt="Charli" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">aang galing</h3>
+  <h3 align="center">Amen</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
- hulingbakbak aang saya
+ Amen
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=randogs/WD-FINALS)
+
+![](https://github.com/Iconiq2)
 
 ---
 
@@ -57,28 +58,34 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
+
 Description of the project in details.
 
 Guiding Question:
-- What is the project- its about my projects
-- Whats the purpose- to see what we've accomplished throughout this semester 
-- What are key components- contacts, list of projects and so on
-- What technology used and how it is used- html, css
+
+- What is the project- About merging like a portfolio
+- Whats the purpose- To see my compiled projects
+- What are key components- To links every project
+- What technology used and how it is used- HTML and CSS
 
 ### Key Components
+
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
+
 - navigations
 - Parallax transition
 
-
 ### Technology
+
 <!-- TODO: List of Technology Used -->
+
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
+
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
 2. Do not rename any .html files; always use `index.html` as the filename.
 3. Place Files in their respective folders.
@@ -115,6 +122,7 @@ WD-ProjectName
 ## Resources
 
 <!-- TODO: Add References -->
-| Title | Purpose | Link |
-|-|-|-|
-| codepen | to help me in my code. | https://codepen.io/trending |
+
+| Title        | Purpose                                      | Link                          |
+| ------------ | -------------------------------------------- | ----------------------------- |
+| freecodecamp | help me in understanding and doing the code. | https://www.freecodecamp.org/ |
