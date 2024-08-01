@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/Iconiq2">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/Sunga_Charles-Lab 3.2.jpg" alt="Charli" width="130" height="100">
+    <img src="./assets/img/Sunga_Charles-Lab 3.2.jpg" alt="Charles" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Amen</h3>
