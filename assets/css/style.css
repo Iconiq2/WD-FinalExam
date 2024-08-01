@@ -17,7 +17,7 @@ header {
     color: #fff;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: #ffffff 3px solid;
+    border-bottom: #ff5733 3px solid;
     position: fixed;
     width: 100%;
     top: 0;
@@ -34,7 +34,7 @@ header a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
-    transition: color 0.3s, transform 0.3s;
+    transition: color 0.3s;
 }
 
 header ul {
@@ -44,7 +44,7 @@ header ul {
     justify-content: flex-end;
 }
 
-header ul li {
+header li {
     display: inline;
     padding: 0 20px;
 }
@@ -69,40 +69,37 @@ main {
 }
 
 .hero {
-    background: linear-gradient(to right, #ffffff, #332f25);
-    color: #030303;
+    background: linear-gradient(to right, #ff5733, #ffbd33);
+    color: #fff;
     text-align: center;
     padding: 100px 0;
     position: relative;
     overflow: hidden;
 }
 
-.hero h2,
-.hero p,
-.hero .cta {
-    animation: fadeInUp 2s ease-in-out;
-}
-
 .hero h2 {
     font-size: 36px;
     margin: 0 0 20px;
+    animation: fadeInDown 1s ease-in-out;
 }
 
 .hero p {
     font-size: 18px;
     margin: 0 0 20px;
+    animation: fadeInDown 1.5s ease-in-out;
 }
 
 .hero .cta {
     display: inline-block;
     background: #fff;
-    color: #180703;
+    color: #ff5733;
     padding: 10px 20px;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
     transition: background 0.3s, color 0.3s;
+    animation: fadeInUp 2s ease-in-out;
 }
 
 .hero .cta:hover {
@@ -128,41 +125,6 @@ main {
     transform: rotate(-45deg) translateX(20%);
 }
 
-.scroll-down {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    animation: bounce 2s infinite;
-}
-
-.scroll-down i {
-    font-size: 24px;
-    color: #fff;
-    border: 2px solid #fff;
-    padding: 10px;
-    border-radius: 50%;
-    transition: all 0.3s;
-}
-
-.scroll-down:hover i {
-    color: #ffbd33;
-    border-color: #ffbd33;
-}
-
-@keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-        transform: translateY(0);
-    }
-    40% {
-        transform: translateY(-10px);
-    }
-    60% {
-        transform: translateY(-5px);
-    }
-}
-
 .intro-container {
     display: flex;
     align-items: center;
@@ -171,8 +133,7 @@ main {
 }
 
 .intro-text {
-    opacity: 0;
-    animation: fadeInUp 1s forwards;
+    animation: fadeInUp 2s ease-in-out;
     margin-top: 20px;
     text-align: left;
     max-width: 50%;
@@ -182,11 +143,13 @@ main {
 .intro-text h3 {
     font-size: 28px;
     margin-bottom: 10px;
+    animation: fadeInUp 2s ease-in-out;
 }
 
 .intro-text p {
     font-size: 16px;
     margin-bottom: 20px;
+    animation: fadeInUp 2s ease-in-out;
 }
 
 .profile-picture {
@@ -198,12 +161,7 @@ main {
 .profile-picture img {
     max-width: 100%;
     border-radius: 10px;
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.profile-picture img:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 2s ease-in-out;
 }
 
 footer {
@@ -221,13 +179,23 @@ footer p {
 
 header a:hover {
     color: #ffbd33;
-    transform: translateY(-3px);
 }
 
 @keyframes fadeInUp {
     from {
         opacity: 0;
         transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
     }
     to {
         opacity: 1;

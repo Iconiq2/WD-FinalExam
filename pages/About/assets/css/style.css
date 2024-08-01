@@ -71,11 +71,6 @@ main .about-me {
     position: relative;
 }
 
-main .about-me:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
-
 main .image-container {
     display: flex;
     justify-content: center;
@@ -92,7 +87,7 @@ main .profile-image {
 
 main .profile-image:hover {
     transform: scale(1.1);
-    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.856);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 main h2 {
@@ -107,7 +102,7 @@ main h2:after {
     display: block;
     width: 50px;
     height: 3px;
-    background: #011216;
+    background: #61dafb;
     margin: 10px auto;
     transition: width 0.3s ease-in-out;
 }
@@ -122,11 +117,6 @@ main p {
     color: #666;
     margin: 0 auto;
     max-width: 700px;
-    transition: opacity 0.5s ease-in-out;
-}
-
-main p:hover {
-    opacity: 0.8;
 }
 
 .button-container {
@@ -140,20 +130,20 @@ main p:hover {
     font-size: 1rem;
     font-weight: 600;
     color: white;
-    background-color: #000000;
+    background-color: #61dafb;
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .cta-button:hover {
-    background-color: #18242c;
+    background-color: #21a1f1;
     transform: scale(1.05);
 }
 
 footer {
     background: #282c34;
-    color: rgba(150, 51, 51, 0.555);
+    color: white;
     padding: 10px 0;
     text-align: center;
 }

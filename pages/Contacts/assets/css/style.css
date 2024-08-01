@@ -25,7 +25,7 @@ header .container {
     align-items: center;
     padding: 0 20px;
 }
-    
+
 header h1 {
     margin: 0;
     font-size: 2rem;
@@ -34,7 +34,7 @@ header h1 {
 
 header h1:hover {
     transform: scale(1.1);
-    color: #140101d2;
+    color: #61dafb;
 }
 
 nav ul {
@@ -56,7 +56,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #021a20;
+    color: #61dafb;
 }
 
 main {
@@ -85,7 +85,7 @@ main h2:after {
     display: block;
     width: 50px;
     height: 3px;
-    background: #000000;
+    background: #61dafb;
     margin: 10px auto;
     transition: width 0.3s ease-in-out;
 }
@@ -118,7 +118,7 @@ main p {
 .contact-item i {
     margin-right: 10px;
     font-size: 1.5rem;
-    color: #cc1c10;
+    color: #61dafb;
     transition: color 0.3s ease-in-out;
 }
 
@@ -127,7 +127,7 @@ main p {
 }
 
 .contact-item:hover i {
-    color: #021925;
+    color: #4fb0e5;
 }
 
 form {
@@ -172,7 +172,7 @@ button {
 }
 
 button:hover {
-    background: #000000;
+    background: #4fb0e5;
     transform: scale(1.05);
 }
 

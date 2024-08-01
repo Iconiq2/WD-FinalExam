@@ -73,8 +73,8 @@ Guiding Question:
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 
-- navigations
-- Parallax transition
+- Navigations
+- Design and Theme
 
 ### Technology
 
@@ -125,4 +125,4 @@ WD-ProjectName
 
 | Title        | Purpose                                      | Link                           |
 | ------------ | -------------------------------------------- | ------------------------------ |
-| freecodecamp | help me in understanding and doing the code. | https://www.freecodecamp.org// |
+| freecodecamp | help me to understand and do the code. | https://www.freecodecamp.org// |
